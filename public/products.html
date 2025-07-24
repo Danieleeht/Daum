@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>제품 소개</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>계룡석재 제품</h1>
+        <nav>
+            <a href="index.html">홈</a>
+            <a href="products.html">제품 소개</a>
+            <a href="cart.html">장바구니</a>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <div class="product" data-id="1">
+                <img src="https://via.placeholder.com/200" alt="평장와비">
+                <h3>평장와비</h3>
+                <p>고급 화강암 사용</p>
+                <span class="price" data-price="2000000">2,000,000원</span>
+                <button onclick="addToCart(1)">장바구니</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="https://via.placeholder.com/200" alt="사진비석">
+                <h3>사진비석</h3>
+                <p>사진 인쇄 가능</p>
+                <span class="price" data-price="1500000">1,500,000원</span>
+                <button onclick="addToCart(2)">장바구니</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="https://via.placeholder.com/200" alt="안치단">
+                <h3>안치단</h3>
+                <p>다양한 규격 제공</p>
+                <span class="price" data-price="3000000">3,000,000원</span>
+                <button onclick="addToCart(3)">장바구니</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 계룡석재</p>
+    </footer>
+</body>
+</html>
