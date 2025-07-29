@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>장바구니</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>장바구니</h1>
+        <nav>
+            <a href="index.html">홈</a>
+            <a href="products.html">제품 소개</a>
+            <a href="cart.html">장바구니</a>
+        </nav>
+    </header>
+    <main>
+        <section id="cart-items"></section>
+        <div class="total">
+            총액: <span id="total-price">0</span>원
+        </div>
+        <button onclick="checkout()">주문하기</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 계룡석재</p>
+    </footer>
+</body>
+</html>
